@@ -14,3 +14,7 @@ export {
     IAuthResponse,
     IAuthUser,
   } from './auth.interface';
+
+  export {
+    printHello
+  } from './helpers'
