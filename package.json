@@ -1,7 +1,7 @@
 {
   "name": "@fkaaziebu/react-ui-lib",
   "author": "Frederick Aziebu",
-  "version": "0.0.1",
+  "version": "0.1.5",
   "type": "module",
   "description": "Shared Library for React-ui's",
   "engines": {
@@ -28,7 +28,7 @@
   "scripts": {
     "dev": "vite",
     "prebuild": "rm -rf dist",
-    "build": "tsc -b && vite build",
+    "build": "tsc -b && vite build && node scripts/build-package.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "publish": "npm run build && npm publish"
