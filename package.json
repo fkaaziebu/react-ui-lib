@@ -1,7 +1,7 @@
 {
   "name": "@fkaaziebu/react-ui-lib",
   "author": "Frederick Aziebu",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "type": "module",
   "description": "Shared Library for React-ui's",
   "engines": {
