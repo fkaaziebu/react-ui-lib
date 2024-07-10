@@ -1,7 +1,7 @@
 {
   "name": "@fkaaziebu/react-ui-lib",
   "author": "Frederick Aziebu",
-  "version": "0.2.5",
+  "version": "0.2.6",
   "type": "module",
   "description": "Shared Library for React-ui's",
   "engines": {
@@ -10,7 +10,7 @@
   "files": [
     "dist"
   ],
-  "main": "./dist/react-ui-lib.umd.cjs",
+  "main": "./dist/react-ui-lib.js",
   "module": "./dist/react-ui-lib.js",
   "repository": {
     "type": "git",
@@ -34,6 +34,7 @@
     "publish": "npm publish"
   },
   "dependencies": {
+    "@medtrack-io/medtrack-shared": "^0.2.2",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
