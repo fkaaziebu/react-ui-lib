@@ -1,9 +1,10 @@
-// @ts-ignore
-import { Button } from "react-ui-lib";
+import { Button } from "@fkaaziebu/react-ui-lib";
+// import { Button } from "../lib/main";
+
 function App() {
   return (
     <>
-      <Button>Test</Button>
+      <Button style={{ padding: "10px" }}>Testing</Button>
     </>
   );
 }

@@ -1,7 +1,7 @@
 {
   "name": "@fkaaziebu/react-ui-lib",
   "author": "Frederick Aziebu",
-  "version": "0.1.6",
+  "version": "0.2.0",
   "type": "module",
   "description": "Shared Library for React-ui's",
   "engines": {
@@ -31,9 +31,10 @@
     "build": "tsc -b && vite build && node scripts/build-package.js",
     "lint": "eslint . --ext ts,tsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "publish": "npm run build && npm publish"
+    "publish": "npm run build && echo @fkaaziebu:https://npm.pkg.github.com/ > dist/.npmrc && echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> dist/.npmrc && npm publish"
   },
   "dependencies": {
+    "@fkaaziebu/react-ui-lib": "^0.1.9",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
