@@ -18,7 +18,7 @@ jobs:
       - run: |
           echo @fkaaziebu:https://npm.pkg.github.com/ > dist/.npmrc
           echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> dist/.npmrc
-      - run: npm publish
+      - run: npm run publish
         working-directory: ./dist
         env:
           NPM_TOKEN: ${{ secrets.GITHUB_TOKEN }}
