@@ -1,5 +1,5 @@
-import { Button } from "@fkaaziebu/react-ui-lib";
-// import { Button } from "../lib/main";
+// import { Button } from "@fkaaziebu/react-ui-lib";
+import { Button } from "../lib/main";
 
 function App() {
   return (
