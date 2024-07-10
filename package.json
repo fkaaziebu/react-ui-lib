@@ -34,7 +34,6 @@
     "publish": "npm run build && echo @fkaaziebu:https://npm.pkg.github.com/ > dist/.npmrc && echo '//npm.pkg.github.com/:_authToken=${NPM_TOKEN}' >> dist/.npmrc && npm publish"
   },
   "dependencies": {
-    "@fkaaziebu/react-ui-lib": "^0.1.9",
     "path": "^0.12.7",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
